@@ -72,6 +72,35 @@
         /* Importer tous les styles précédents ici */
         /* ... [Coller ici tous les styles des deux versions précédentes] ... */
 
+          /* Responsive adjustments for small/phone screens */
+    @media (max-width: 600px) {
+        .nav-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-link {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+
+    /* Masquer les sections par défaut */
+    .content-section {
+        display: none;
+    }
+
+    .content-section.active {
+        display: block;
+    }
+
+    H2 {
+        color: red;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
     </style>
 </head>
 <body>
