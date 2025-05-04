@@ -59,6 +59,10 @@
     h2 { font-size: 1.75rem; color: #2563eb; margin-top: 2rem; }
     p { font-size: 1rem; line-height: 1.5; }
     .chart-container { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 1rem 0; }
+    .light-green { background-color: #aaf0cc; }
+    .light-red { background-color: #f8d7da; }
+    .light-blue { background-color: #d1e7fd; }
+    .light-orange { background-color: #fff3cd; }
   </style>
 </head>
 <body>
@@ -231,7 +235,7 @@
           <section>
             <h2>SWOT Analysis</h2>
             <div className="grid grid-cols-2 gap-4">
-              <div>
+              <div className="light-green">
                 <h3 className="text-lg font-semibold text-green-600">Strengths</h3>
                 <ul className="list-disc pl-5">
                   <li>Dedicated staff and volunteers</li>
@@ -239,7 +243,7 @@
                   <li>Strong monitoring and evaluation skills</li>
                 </ul>
               </div>
-              <div>
+              <div className="light-red">
                 <h3 className="text-lg font-semibold text-red-600">Weaknesses</h3>
                 <ul className="list-disc pl-5">
                   <li>Poor organization and planning</li>
@@ -247,7 +251,7 @@
                   <li>Low member participation</li>
                 </ul>
               </div>
-              <div>
+              <div className="light-blue">
                 <h3 className="text-lg font-semibold text-blue-600">Opportunities</h3>
                 <ul className="list-disc pl-5">
                   <li>Team renewal for fresh ideas</li>
@@ -255,7 +259,7 @@
                   <li>Enhanced member engagement</li>
                 </ul>
               </div>
-              <div>
+              <div className="light-orange">
                 <h3 className="text-lg font-semibold text-yellow-600">Threats</h3>
                 <ul className="list-disc pl-5">
                   <li>Continued disengagement</li>
